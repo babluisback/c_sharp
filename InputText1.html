@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container{
+            display: flex;
+            justify-content: space-around;
+            box-shadow: 10px 10px 5px rgba(20, 20, 13, 0.467);
+            background-color: lightblue;
+            align-items: center;
+            margin-left: 0px;
+            
+        }
+        ul li{
+            display: flex;
+            display: inline;
+            align-items: center;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+        input{
+            outline: none;
+            width: 200px;
+            transition:box-shadow 500ms;
+            font-size: 22px;
+        }
+        input:hover{
+            box-shadow: 1px 1px 10px red;
+        }
+        img{
+            height: 250px;
+            width: 350px;
+            padding: 30px;
+            
+            
+        }
+        img:hover{
+            transform: scale(1.05);
+            transform: rotateY('-360deg');
+        }
+    </style>
+</head>
+<body style="background-color: cyan;">
+    <header>
+        <di class="flex-container"> Welcome To Learning
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </di>
+    </header>
+    <h1 style="text-align: center;">Welcome to Dot Net</h1>
+    <input type="text"/> </br> <br>
+    <h3>Enter your age</h3><input type="number"/>
+    <img src="D:\NareshHtml\Images\swan.jpg" alt="Swan Image">
+</body>
+</html>
